@@ -1,0 +1,401 @@
+button a, .sub-btn
+{
+font-size: 20px;
+}
+.contact-form ::placeholder, body h5
+{font-size: 20px;}
+.blog-p
+{
+font-size: 15px;
+}
+.para-22
+{
+font-size: 22px;
+}
+.city-row p
+{
+font-size: 16px !important;
+}
+#test .maintxt
+{font-size: 15px;}
+
+
+
+/*  centre section css */
+#centre .tab-content ul li
+{
+border: 1px solid #000 !important;
+border-radius: 25px !important;
+padding: 10px 45px;
+margin: 10px 5px;
+}
+#centre .tab-content ul li a
+{
+color: #000;
+}
+#centre .nav-tabs .nav-link.active {
+border: none !important;
+border-bottom: 1px solid #000 !important;
+background-color: transparent;
+font-weight: bold !important;
+}
+#centre .nav-tabs .nav-link
+{
+border: none;
+color: #000 !important;
+}
+#centre
+{
+background-color: #FBFDFE;
+}
+.filter-btn
+{
+background-color: #fff;
+}
+
+
+/*Blue Section css*/
+#blue-sec
+{
+background-color:#42226E;
+}
+.white-btn
+{
+background-color: #fff;
+}
+
+/*contact css*/
+#contact-form
+{
+background-color: #F9F3EF;
+}
+#contact-form .container
+{
+background-color: #fff !important;
+border-radius: 15px !important;
+}
+.white-col
+{
+padding: 100px 130px;
+}
+#contact-form ::placeholder
+{
+color: #000 !important;
+}
+#contact-form input
+{height: 56px !important;border-radius: 25px;}
+ 
+#contact-form textarea
+{
+border-radius: 15px;
+}
+.sub-btn
+{
+border-radius: 10px;
+}
+.sub-btn:hover
+{
+background-color: transparent;
+border: 1px solid #000;
+color: #000 !important;
+}
+.sub-btn:hover a
+{
+color: #000 !important;
+}
+
+/*video section*/
+.blue-col {
+background-color: #673592;
+position: relative;
+left: 60px;
+z-index: 111;
+top: 85px;
+padding: 60px !important;
+border-radius: 20px;
+}
+#video
+{
+background-color: #F5FAFB;
+padding-bottom: 13% !important;
+}
+.play-video
+{
+position: relative;
+left: -60px;
+}
+.play-video img
+{
+border-radius: 20px !important;
+}
+.play-btn {
+width: 94px;
+height: 94px;
+background: radial-gradient(#ffffff 50%, rgb(214 220 224 / 40%) 52%);
+border-radius: 50%;
+display: block;
+position: absolute;
+left: calc(50% - 47px);
+top: calc(50% - 47px);
+overflow: hidden;
+}
+.play-btn::before {
+content: '';
+position: absolute;
+width: 120px;
+height: 120px;
+opacity: 1;
+border-radius: 50%;
+border: 5px solid rgba(36, 135, 206, 0.7);
+top: -15%;
+left: -15%;
+background: rgba(198, 16, 0, 0);
+}
+.play-btn::after {
+content: '';
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translateX(-40%) translateY(-50%);
+width: 0;
+height: 0;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+border-left: 15px solid #cc3d3d;
+z-index: 100;
+transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+/*testimonial Css*/
+#test .card
+{
+padding: 20px;
+background-color: #fff !important;
+border-radius: 15px;
+border: none;
+}
+#test{
+background-color: #F5FAFB;
+}
+.text-sec
+{
+margin-top:-75px;
+}
+.sec-card
+{
+margin-top: -95px;
+}
+#test .nav-pills .nav-link
+{
+background-color: transparent;
+color: #000;
+}
+#test .nav-link.active
+{
+font-size: 26px;
+}
+
+
+/*bg img section*/
+#bg-img
+{
+background: url(../images/hero-banner1.png) fixed center center;
+background-position: center right;
+background-size: cover;
+padding: 120px 0px;
+}
+.white-btn:hover
+{
+background-color: transparent;
+color: #000;
+border: 1px solid #fff;
+}
+.white-btn:hover a
+{
+color: #fff !important;
+}
+#about
+{
+background-color: #F4F4F5;
+}
+.about-white-col
+{
+background-color: #fff;
+padding: 45px;
+padding-right: 70px;
+border-radius: 20px;
+}
+.img-29
+{
+width: 62%!important;
+}
+/*Blog*/
+#blog
+{
+background-color: #F9F3EF;
+}
+
+
+/*exam result testi section*/
+#exam-result-testi
+{
+background-color: #E7EFEF !important;
+overflow-x: hidden;
+}
+.testimonial{
+border-radius: 30px !important;
+text-align: left;
+padding: 74px 10px 10px 35px!important;
+margin: 70px 15px 35px;
+background: #f9f9f9;
+position: relative;
+}
+.testimonial .pic{
+width: 120px;
+height: 120px;
+margin: 0 auto;
+position: absolute;
+top: -60px;
+left: -55px;
+right: 0;
+border-radius: 50% !important;
+}
+.testimonial .pic img{
+width: 90%;
+height: auto;
+border-radius: 50% !important;
+}
+.testimonial .description{
+font-size: 14px;
+color: #757575;
+line-height: 27px;
+margin-bottom: 20px;
+position: relative;
+}
+.testimonial .testimonial-profile{
+position: relative;
+margin: 20px 0 10px 0;
+}
+#exam-result-testi .nav-tabs .nav-link.active
+{
+border: none !important;
+border-bottom: 1px solid #000 !important;
+background-color: transparent;
+font-weight: bold !important;
+}
+#exam-result-testi .nav-tabs .nav-link
+{
+color: #000;
+}
+.red-box
+{
+background-color: #E62D4E !important;
+padding: 40px !important;
+border-radius: 20px;
+}
+#exam-result-testi .nav-tabs .nav-link
+{
+padding: .5rem 0.7rem !important;
+}
+.owl-theme .owl-controls .owl-buttons div
+{
+background-color: transparent;
+color: #000;
+font-size: 20px;
+opacity: 1;
+}
+#exam-result-testi .owl-pagination
+{
+display: none;
+}
+
+
+
+/*Responsive start*/
+
+
+@media (max-width: 767px)
+{
+    .play-video , .blue-col
+    {
+    left: 0px;
+    top: 30px;
+    }
+    #contact-form .container
+    {
+    width: 95%;
+    }
+    .white-col {
+    padding: 70px 18px;
+    }
+    .img-29
+    {
+    padding-top: 10%;
+    }
+    .blue-col
+    {
+    top: 75px;
+    padding: 50px !important;
+    }
+    .city-row img
+    {
+    width: 40% !important;
+    }
+    .text-sec 
+    {
+    margin-top: -10px;
+    }
+    .filter-btn
+    {
+    margin-top: 5%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+}
+/*portrait - ipad*/
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1)
+{
+    .city-row p {
+    font-size: 12px !important;
+    }
+    .city-row  img
+    {
+    width: 75% !important;
+    }
+    #centre .nav-tabs .nav-link
+    {
+    padding: .5rem;
+    }
+    body h1
+    {
+    font-size: 35px;
+    }
+}
+/* Landscape -ipad */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+}
+/* portrait -ipadPro */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+}
+/* landscape -ipadPro */
+@media only screen
+and (min-device-width: 1366px)
+and (max-device-width: 1366px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+}
